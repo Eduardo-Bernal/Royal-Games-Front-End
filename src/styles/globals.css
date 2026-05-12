@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #221C2D;
 }
 
 html {
@@ -11,6 +10,7 @@ html {
 
 body {
   font-family: var(--font-padrao);
+  background-color: #221C2D;
 }
 
 h1, h2, h3 {
