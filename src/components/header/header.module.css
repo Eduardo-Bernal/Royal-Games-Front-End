@@ -1,0 +1,18 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #FF004C;
+    font-weight: 400;
+}
