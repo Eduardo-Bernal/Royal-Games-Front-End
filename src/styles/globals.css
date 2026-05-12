@@ -20,15 +20,13 @@ h1, h2, h3 {
 
 
 :root {
-  --fundo-claro: #f1f1f1;
-  --fundo-escuro: #232122;
-  --laranja-destaque: #FFA300;
-  --vinho: #451201;
+  --background: linear-gradient(270deg, #221C2D 44.71%, #282047 100%);
+  --home-background: radial-gradient(86.81% 50% at 50% 50%, #362968 0%, #2C224C 32.21%, #221B2F 100%);;
+  --background-solid: #221B2F;
 
-  --tamanho-h1: 100px;
-  --tamanho-titulo: 50px;
-  --tamanho-subtitulo: 30px;
-  --tamanho-texto-btn: 20px;
+  --input-color: #D6D2E633;
+  --texto-claro:#D6D2E6;
+  --fundo-vermelho: #FF004C;
 }
 
 .layout_guide {

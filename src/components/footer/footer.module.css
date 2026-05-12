@@ -1,0 +1,28 @@
+.footer{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_footer{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo_footer img {
+    width: 15%;
+}
+
+.texto_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto_footer p{
+    color: var(--texto-claro);
+    text-align: end;
+}
