@@ -1,38 +1,30 @@
-.conteudo_lista{
-    display: flex;
-    /*gap: 10px;*/
+#conteudo_lista {
     height: 100%;
-    justify-content: space-around;
-    flex-direction: column;
 }
 
-.pesquisa{
-    display: flex;
-    justify-content: center;
+#pesquisa {
     gap: 15px;
 }
 
-.pesquisa input{
+#pesquisa input {
     width: 68%;
     box-sizing: border-box;
 }
 
-.pesquisa input, .pesquisa select{
+#pesquisa input,
+#pesquisa select {
     background-color: var(--input-color);
-
     color: var(--texto-claro);
     padding: 10px;
 }
 
-.lista_jogos{
+#lista_jogos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
 
-.paginas {
-    display: flex;
+#paginas {
     gap: 15px;
-    justify-content: center;
 }

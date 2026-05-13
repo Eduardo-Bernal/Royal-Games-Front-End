@@ -10,26 +10,35 @@ html {
 
 body {
   font-family: var(--font-padrao);
-  background-color: #221C2D;
+
+  background: radial-gradient(
+          86.81% 50% at 50% 50%,
+          #362968 0%,
+          #2C224C 32.21%,
+          #221B2F 100%
+  );
+
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 h1, h2, h3 {
   font-family: var(--font-titulo);
 }
 
-
-
 :root {
   --background: linear-gradient(270deg, #221C2D 44.71%, #282047 100%);
-  --home-background: radial-gradient(86.81% 50% at 50% 50%, #362968 0%, #2C224C 32.21%, #221B2F 100%);;
+
+  --home-background: radial-gradient(
+          86.81% 50% at 50% 50%,
+          #362968 0%,
+          #2C224C 32.21%,
+          #221B2F 100%
+  );
+
   --background-solid: #221B2F;
 
   --input-color: #D6D2E633;
   --texto-claro:#D6D2E6;
   --fundo-vermelho: #FF004C;
-}
-
-.layout_guide {
-  width: 80%;
-  margin: 0 auto;
 }

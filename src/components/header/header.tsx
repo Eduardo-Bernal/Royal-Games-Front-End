@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 
 const Header = () => {
 
@@ -9,14 +9,28 @@ const Header = () => {
         router.push('/login');
     };
 
-
     return (
         <>
-            <header id={styles.header}>
-                <img src="/imgs/logoHeader.png" alt=""/>
-                <div className={styles.botoes}>
-                    <a className={styles.links} href="">Catálogo</a>
-                    <button onClick={redirect} className={styles.login}>Login</button>
+            <header
+                id={styles.header}
+                className="d-flex flex-row justify-content-between align-items-center"
+            >
+                <img src="/imgs/logoHeader.png" alt="" />
+
+                <div
+                    id={styles.botoes}
+                    className="d-flex align-items-center"
+                >
+                    <a id={styles.links} href="">
+                        Catálogo
+                    </a>
+
+                    <button
+                        onClick={redirect}
+                        id={styles.login}
+                    >
+                        Login
+                    </button>
                 </div>
             </header>
         </>

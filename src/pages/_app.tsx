@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import { Orbitron, Exo_2 } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "@/styles/globals.css";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const orbitron = Orbitron({
     variable: "--font-titulo",
