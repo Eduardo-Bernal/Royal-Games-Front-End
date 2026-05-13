@@ -7,7 +7,7 @@ const CardJogo = () => {
         <>
             <article
                 id={styles.conteudo_card}
-                className="glass-container d-flex flex-column align-items-center justify-content-between"
+                className="glass-container d-flex flex-column align-items-center justify-content-between p-4"
             >
                 <img src="/imgs/card-cod.png" alt="" />
 

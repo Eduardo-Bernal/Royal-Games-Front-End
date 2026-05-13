@@ -1,5 +1,7 @@
+'use client';
+
 import styles from "./header.module.css";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const Header = () => {
 

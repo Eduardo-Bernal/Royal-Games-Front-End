@@ -1,3 +1,5 @@
+'use client';
+
 import styles from "./catalogo.module.css";
 import CardJogo from "../card-jogo/card-jogo";
 import Btn from "../btn/btn";

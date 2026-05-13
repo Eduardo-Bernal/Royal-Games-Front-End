@@ -1,24 +1,32 @@
 #banner {
     height: 90vh;
-    background: var(--home-background);
-}
-
-#banner img {
-    position: absolute;
-    top: 270px;
-    right: 0px;
-}
-
-#conteudo_banner {
-    height: 50%;
+    overflow: hidden;
 }
 
 #texto_banner {
     color: var(--texto-claro);
     gap: 15px;
-    width: 70%;
+    width: 45%;
+    z-index: 2;
 }
 
+#imagem_banner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    height: 90%;
+    object-fit: contain;
+}
+
+#texto_banner h1 {
+    font-size: 64px;
+}
+
+#texto_banner p {
+    font-size: 22px;
+    line-height: 35px;
+}
 #catalogo {
     height: 100vh;
     background-color: var(--background-solid);
@@ -34,7 +42,6 @@
 }
 
 #conteudo {
-    flex-direction: column;
     height: 100%;
 }
 
