@@ -1,46 +1,32 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-html {
-  scroll-behavior: smooth;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-titulo);
+    color: var(--texto-claro);
 }
 
-body {
-  font-family: var(--font-padrao);
-
-  background: radial-gradient(
-          86.81% 50% at 50% 50%,
-          #362968 0%,
-          #2C224C 32.21%,
-          #221B2F 100%
-  );
-
-  overflow-x: hidden;
-  min-height: 100vh;
-}
-
-h1, h2, h3 {
-  font-family: var(--font-titulo);
+p, input, select, option, a, button {
+    font-family: var(--font-padrao);
+    color: var(--texto-claro);
 }
 
 :root {
-  --background: linear-gradient(270deg, #221C2D 44.71%, #282047 100%);
+    --background: linear-gradient(270deg, #221C2D 44.71%, #282047 100%);
+    --home-background: radial-gradient(86.81% 50% at 50% 50%, #362968 0%, #2C224C 32.21%, #221B2F 100%);;
+    --background-solid: #221B2F;
 
-  --home-background: radial-gradient(
-          86.81% 50% at 50% 50%,
-          #362968 0%,
-          #2C224C 32.21%,
-          #221B2F 100%
-  );
+    --input-color: #D6D2E633;
+    --texto-claro: #D6D2E6;
+    --fundo-vermelho: #FF004C;
+}
 
-  --background-solid: #221B2F;
-
-  --input-color: #D6D2E633;
-  --texto-claro:#D6D2E6;
-  --fundo-vermelho: #FF004C;
+.container-grid {
+    width: 80%;
 }
 
 .glass-container {

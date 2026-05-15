@@ -20,7 +20,7 @@
 }
 
 .main .imagem_lateral img{
-    height: 80%;
+    height: 90%;
 }
 
 .form_login{
@@ -45,7 +45,7 @@
 }
 
 .logo{
-    width: 80%;
+    width: 35%;
     object-fit: contain;
 }
 

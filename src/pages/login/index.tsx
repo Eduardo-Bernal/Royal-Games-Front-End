@@ -12,7 +12,7 @@ const Login = () => {
                     <img src="/imgs/mulher%20login.png" alt=""/>
                 </div>
                 <div className={styles.form_login}>
-                    <img className={styles.logo} src="/imgs/Logo%20Header.png" alt=""/>
+                    <img className={styles.logo} src="/imgs/logoHeader.png" alt=""/>
                     <form className={styles.campos_login} action="">
                         <div className={styles.campo_texto}>
                             <label htmlFor="">Email</label>
